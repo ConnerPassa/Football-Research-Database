@@ -39,5 +39,15 @@ The goal is intelligence. Much like the SABRmetricians with baseball, I am tryin
 
 3. **Sample Queries**
 
+  In this section, there will be numerous SQL queries for finding information about the game. These will display a mastery of SQL querying to find the answers to the questions asked.
+
+  SQL tools used include:
+
+  1. Subqueries
+  2. Joins
+  3. Common Table Expressions
+  4. Window Functions
+  5. Case-When statements
+
   
 

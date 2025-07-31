@@ -25,11 +25,11 @@ The goal is intelligence. Much like the SABRmetricians with baseball, I am tryin
 
 ### **What You'll Find Inside**
 
-1. **Sample Datasets**
+**1. Sample Datasets**
 
   I will provide the sample datasets from publicly available sources like nfl_data_py. I will not be sharing the PFF data sources because they must be paid for. 
 
-2. **Scripts**
+**2. Scripts**
 
   In this folder, you will find by SQL and Python scripts. 
   
@@ -37,7 +37,7 @@ The goal is intelligence. Much like the SABRmetricians with baseball, I am tryin
 
   The Python scripts will be calculations of advanced statistics like expected points added, completion percentage over expected, and success rates.
 
-3. **Sample Queries**
+**3. Sample Queries**
 
   In this section, there will be numerous SQL queries for finding information about the game. These will display a mastery of SQL querying to find the answers to the questions asked.
 

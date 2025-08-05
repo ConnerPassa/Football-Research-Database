@@ -1,53 +1,43 @@
 # Football Research Database
 
-Welcome to the **Football Research Database** repository!
+Welcome to the Football Research Database repository!
 
----
+## Introduction
 
-### **Introduction**
+This database is the first step in a larger obsession to understand the game at its core. It incorporates data from several sources, including the [`nfl_data_py`](https://github.com/nflverse/nfl_data_py) Python package, Pro Football Focus (PFF) premium stats, and OverTheCap.com contract data.
 
-This database is the first step in a larger obsession to understand the game at its core. It takes in data from a number of sources including, the nfl_data_py python package, Pro Football Focus premium stats, and OverTheCap.com contracts data.
+The goal is **intelligence**. Much like SABRmetricians in baseball, I aim to learn about football through the lens of numbers. Is QB X overrated? Is QB Y undervalued? These are the types of questions I'm trying to answer.
 
-The goal is intelligence. Much like the SABRmetricians with baseball, I am trying to learn about football through the lens of numbers. Is QB X overrated? Is QB Y undervalued? These are the types of questions i am trying to answer.
+## Resources Used
 
----
+- [`nfl_data_py`](https://github.com/nflverse/nfl_data_py)
+- [Pro Football Focus (PFF)](https://www.pff.com/)
+- [NFL Next Gen Stats](https://www.nfl.com/stats/next-gen-stats/)
+- [OverTheCap](https://overthecap.com/)
+- [Pro Football Reference](https://www.pro-football-reference.com/)
 
-### **Resources used**:
+## What You'll Find Inside
 
-1. nfl_data_py
-2. Pro Football Focus (PFF)
-3. NFL Next Gen Stats
-4. OverTheCap
-5. Pro Football Reference
+### 1. Sample Datasets
 
+This repository includes sample datasets from publicly available sources such as `nfl_data_py`. Due to licensing restrictions, I will not share any PFF datasets, as they require a paid subscription.
 
----
+### 2. Scripts
 
-### **What You'll Find Inside**
+You'll find both SQL and Python scripts in this repository.
 
-**1. Sample Datasets**
+- **SQL Scripts:** Used for creating tables, performing bulk inserts, and cleaning raw uploaded data.
+- **Python Scripts:** Focused on calculating advanced statistics such as:
+  - Expected Points Added (EPA)
+  - Completion Percentage Over Expected (CPOE)
+  - Success Rates
 
-  I will provide the sample datasets from publicly available sources like nfl_data_py. I will not be sharing the PFF data sources because they must be paid for. 
+### 3. Sample Queries
 
-**2. Scripts**
+This section includes various SQL queries used to extract insights about the game. These demonstrate a strong command of SQL, including:
 
-  In this folder, you will find by SQL and Python scripts. 
-  
-  The SQL scripts in this folder will be mostly related to CREATE TABLES, BULK INSERTS, and cleaning of the raw data thats uploaded. 
-
-  The Python scripts will be calculations of advanced statistics like expected points added, completion percentage over expected, and success rates.
-
-**3. Sample Queries**
-
-  In this section, there will be numerous SQL queries for finding information about the game. These will display a mastery of SQL querying to find the answers to the questions asked.
-
-  SQL tools used include:
-
-  1. Subqueries
-  2. Joins
-  3. Common Table Expressions
-  4. Window Functions
-  5. Case-When statements
-
-  
-
+- Subqueries  
+- Joins  
+- Common Table Expressions (CTEs)  
+- Window Functions  
+- `CASE WHEN` statements

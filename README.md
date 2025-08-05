@@ -6,7 +6,7 @@ Welcome to the Football Research Database repository!
 
 This database is the first step in a larger obsession to understand the game at its core. It incorporates data from several sources, including the [`nfl_data_py`](https://github.com/nflverse/nfl_data_py) Python package, Pro Football Focus (PFF) premium stats, and OverTheCap.com contract data.
 
-The goal is **intelligence**. Much like SABRmetricians in baseball, I aim to learn about football through the lens of numbers. Is QB X overrated? Is QB Y undervalued? These are the types of questions I'm trying to answer.
+The goal is **intelligence**. Much like SABRmetricians in baseball, I aim to learn about football through the lens of numbers. Is QB X overrated? Is QB Y undervalued? How does team A's offense match up against team B's defense? What are my opponents strengths and weaknesses and how can i exploit them? These are the types of questions I'm trying to answer.
 
 ## Resources Used
 
@@ -20,7 +20,7 @@ The goal is **intelligence**. Much like SABRmetricians in baseball, I aim to lea
 
 ### 1. Sample Datasets
 
-This repository includes sample datasets from publicly available sources such as `nfl_data_py`. Due to licensing restrictions, I will not share any PFF datasets, as they require a paid subscription.
+This repository includes sample datasets from publicly available sources such as `nfl_data_py`. Due to licensing restrictions, I will not share any 20+ PFF datasets, as they require a paid subscription.
 
 ### 2. Scripts
 

@@ -2,6 +2,9 @@ USE [Football Research];
 
 -- Football Research Database SQL Sample Queries
 
+-- SQL Concepts Showcased:
+-- CTE, Window Functions, CASE WHEN, JOIN, FILTERING, ALIASING, Subquerries
+
 ------------------------------------------------------------------------------------------------------------------------------------------------
 
 -- Exercise #1 
@@ -17,8 +20,6 @@ USE [Football Research];
 -- 6) Turnover Worthy Play Rate
 
 -- Will be used for building radar charts on the QB Power BI dashboard.
-
--- SQL concepts used include: CTE's, Window Functions, Joins, Aliasing
 
 WITH qb_percentiles AS (
 	SELECT 
@@ -73,8 +74,6 @@ ORDER BY season DESC, epa_per_dropback DESC;
 -- Excersie #2
 
 -- Which quarterback's in each season had a higher EPA per dropback than leage average (300 min dropbacks)?
-
--- SQL concepts: subquerries, aliasing, joins
 
 SELECT
 q.season,
@@ -145,8 +144,6 @@ ORDER BY season DESC;
 -- Definition: True Pass Sets are plays that take away gimmicks like screens, play action, designed rollouts, and RPO's.
 --             They are meant to weed out noise from trickery and isolate a defensive lineman's performance in traditional pass sets.
 
--- SQL Concepts: CTE, CASE WHEN, JOINS, FILTERING, ORDER BY
-
 WITH graded_rushers AS (
 	SELECT 
 		p.season,
@@ -189,3 +186,4 @@ SELECT *
 FROM graded_rushers
 WHERE (position = 'ED' or position = 'DI')
 ORDER BY season DESC, pass_rush_difference DESC;
+
